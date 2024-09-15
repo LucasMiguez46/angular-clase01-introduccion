@@ -4,12 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-main-wrapper',
   template: `
   <main> 
-    <ng-content select="h1"/> 
+    <!-- <ng-content select="h1"/>  -->
     <ng-content/> 
   </main>`,
   styles: `
   main{
     padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
   `,
 })
